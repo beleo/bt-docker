@@ -1,0 +1,8 @@
+  - action: "Build Docker image"
+    type: "DOCKERFILE"
+    login: "snusker@gmail.com"
+    password: "secure!hiDwZOzkdQaxBTPXZGbHOfoiiOjfvNpoUQRyupchGgM="
+    docker_image_tag: "tident"
+    dockerfile_path: "Dockerfile"
+    repository: "beleo/trident"
+    trigger_condition: "ALWAYS"
